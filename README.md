@@ -1,48 +1,36 @@
-![preview Long Haul](/preview.jpg)
+# Contrast
 
-Long Haul is a minimal jekyll theme built with SASS / GULP / BROWSERSYNC / AUTOPREFIXER and focuses on long form blog posts. It is meant to be used as a starting point for a jekyll blog/website.
+### Note
 
-If you really enjoy Long Haul and want to give me credit somewhere on the internet send or tweet out your experience with Long Haul and tag me [@brianmaierjr](https://twitter.com/brianmaierjr).
+Create a `master`-branch and adjust `_config.yml` if you want to use this theme in the root folder of `yourname.github.io`.
 
-#### [View Demo](http://brianmaierjr.com/long-haul)
+### Default
 
-## Features
+![screenshot](https://user-images.githubusercontent.com/4943215/35478338-b502fdfa-03da-11e8-975b-469a7c30b54f.png)
 
-- Minimal, Type Focused Design
-- Built with GULP + SASS + BROWSERSYNC + AUTOPREFIXER
-- SVG Social Icons
-- Responsive Nav Menu
-- XML Feed for RSS Readers
-- Contact Form via Formspree
-- 5 Post Loop with excerpt on Home Page
-- Previous / Next Post Navigation
-- Estimated Reading Time for posts
-- Stylish Drop Cap on posts
-- A Better Type Scale for all devices
+### Minimal
 
-## Setup
+![screenshot](https://user-images.githubusercontent.com/4943215/35478340-d391eda8-03da-11e8-9352-e4dd5cdb74d2.png)
 
-1. [Install Jekyll](http://jekyllrb.com)
-2. Fork the [Long Haul repo](http://github.com/brianmaierjr/long-haul)
-3. Clone it
-4. [Install Bundler](http://bundler.io/)
-5. Run `bundle install`
-6. Install gulp dependencies by running `npm install`
-7. Run Jekyll and watch files by running `gulp`
-8. Customize and watch the magic happen!
+### Usage
 
-## Site Settings
+Just fork the repo and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done ... or read more about [Jekyll](https://jekyllrb.com/).
 
-The main settings can be found inside the `_config.yml` file:
+### Features
 
-- **title:** title of your site
-- **description:** description of your site
-- **url:** your url
-- **paginate:** the amount of posts displayed on homepage
-- **navigation:** these are the links in the main site navigation
-- **social** diverse social media usernames (optional)
-- **google_analytics** Google Analytics key (optional)
+ - responsive
+ - pagination
+ - archive page
+ - feed.xml generation
+ - syntax highlighting
+ - comments ([disqus](https://disqus.com/) / [isso](http://posativ.org/isso/))
 
-## License
+### Based on
 
-This is [MIT](LICENSE) with no added caveats, so feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
+- [Jekyll](https://jekyllrb.com/)
+- [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
+- [Font Awesome](http://fontawesome.io/)
+- [Pygments](https://github.com/richleland/pygments-css)
+- [Pixyll](https://github.com/johnotander/pixyll)
+
+Niklas Buschmann, 2014-18, MIT-License

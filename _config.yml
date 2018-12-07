@@ -1,28 +1,27 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
-
-url: http://brianmaierjr.github.com/long-haul
+title: "Funnnny Things."
+author: "unh3x@DBApp"
+description: "Funnnny Things"
+more: "read more »"
+url: "https://unh3x.github.io/"
 baseurl: ""
-paginate_path: "blog/page:num/"
-permalink: blog/:title/
+paginate: 2
+permalink: pretty
+excerpt_separator: "\n\n\n" # two blank lines
 
-markdown: kramdown
-highlighter: rouge
-gems: [jekyll-paginate]
-paginate: 5
+style:
+  minimalist: false
+  dark: false
 
 navigation:
- - title: Home
-   url: /index.html
- - title: About
-   url: /about
- - title: Contact
-   url: /contact
+  - index.html
+  - archive.html
+  - about.md
 
-social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+#  isso: "comments.mysite.org"
 
-google_analytics: "UA-58263416-1"
+links: # see http://fontawesome.io/icons/#brand for all possible icons
+  - envelope: "mailto:0x00unhex@gmail.com"
+
+defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
+sass: {style: expanded}
+plugins: [jekyll-feed, jekyll-paginate]
