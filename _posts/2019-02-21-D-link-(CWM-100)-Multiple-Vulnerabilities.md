@@ -11,7 +11,7 @@ date: 2019-02-21 00:30:00
 **&ensp;&ensp;&ensp;&ensp;Central WifiManager Before Ver. 1.03R0100- Beta6**
 <BR><BR>
 # **[Credits]()**
-**&ensp;&ensp;&ensp;&ensp;These vulnerabilities were discovered and researched by M3@ZionLab from DBAppSecurity.**
+**&ensp;&ensp;&ensp;&ensp;These vulnerabilities were discovered and researched by xiaotian.wang from DBAppSecurity.**
 <BR><BR>
 # **[Technical Description / Proof of Concept Code]()**
 * ### **1. Arbitrary SQL Command Query**
